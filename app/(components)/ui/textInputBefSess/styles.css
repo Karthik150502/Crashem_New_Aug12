@@ -1,0 +1,12 @@
+.inp:focus,
+.inp:hover {
+    outline: 2px solid rgb(7, 147, 147);
+}
+
+
+.appear {
+    animation-timing-function: ease-in-out;
+    animation-name: appear;
+    animation-duration: 0.2s;
+    animation-delay: 0.02s;
+}

@@ -1,0 +1,50 @@
+.button {
+    transition: background-color 0.2s ease-in-out 0.02s;
+    background-color: rgb(2, 158, 158);
+}
+
+
+
+.form-bg {
+    box-shadow: 0px 9px 31px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 56px;
+    border: 1px solid white;
+}
+
+.button:hover {
+    background-color: rgb(64, 207, 207);
+}
+
+.googlebtn {
+    transition: background-color 0.2s ease-in-out 0.02s;
+    border: 1px solid white;
+}
+
+
+.googlebtn:hover {
+    background-color: rgb(4, 25, 40);
+}
+
+
+.githubtn {
+    transition: background-color 0.2s ease-in-out 0.02s;
+    border: 1px solid white;
+}
+
+
+.githubtn:hover {
+    background-color: rgb(4, 25, 40);
+}
+
+.githublogo {
+    filter: invert(100%);
+}
+
+.hyper {
+    transition: transform 0.2s ease-in-out 0.02s;
+}
+
+.hyper:hover {
+    transform: scale(1.15);
+
+}

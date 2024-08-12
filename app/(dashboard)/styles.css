@@ -1,0 +1,13 @@
+.main-cont {
+    overflow-y: scroll;
+}
+
+
+.main-cont::-webkit-scrollbar {
+    display: none;
+
+}
+
+.bg {
+    background-color: var(--background-bg);
+}

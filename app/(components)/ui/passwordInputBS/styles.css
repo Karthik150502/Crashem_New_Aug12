@@ -1,0 +1,14 @@
+.scrl {
+    overflow-x: scroll;
+}
+
+.scrl::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.inp:focus,
+.inp:hover {
+    outline: 2px solid rgb(7, 147, 147);
+}

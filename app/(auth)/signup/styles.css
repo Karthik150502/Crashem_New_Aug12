@@ -1,0 +1,12 @@
+.hyper {
+    transition: transform 0.2s ease-in-out 0.02s;
+}
+
+.hyper:hover {
+    transform: scale(1.15);
+
+}
+
+.scroll-hide::-webkit-scrollbar {
+    display: none;
+}

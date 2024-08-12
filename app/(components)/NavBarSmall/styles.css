@@ -1,0 +1,53 @@
+.menu-item {
+    transition: 0.3s ease-in-out 0.02s;
+}
+
+.menu-item:hover {
+    transform: scale(1.15);
+    text-shadow: 0px 0px 10px #fff,
+        0px 0px 10px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+}
+
+
+
+.slider {
+    transition: 0.2s ease-in-out 0.02s;
+    display: flex;
+    background-color: var(--background-bg);
+}
+
+
+.selected {
+    text-shadow: 0px 0px 10px #fff,
+        0px 0px 10px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    transform: scale(1.05);
+
+}
+
+.navbar {
+    background-color: var(--background-bg-navbar);
+}
+
+
+
+.profile {
+    transition: transform 0.3s ease-in-out 0.02s;
+}
+
+.profile:hover {
+    transform: scale(1.15);
+}
